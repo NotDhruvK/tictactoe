@@ -1,0 +1,27 @@
+determine if the player has won
+
+
+
+
+
+
+
+
+    TO DO:
+1. Data structure to store the data
+2. Win engine determining
+
+
+Winning determination:
+Will keep repeating the function call until true (initialized to false)
+Will need 3 functions one each for rows, columns and diagonals.
+  For rows
+    will check the row elements and store them in a string.
+    If the string == "XXX" or "000" then win = true
+  For columns
+    Will check the elements in the columns and store them in a string.
+    Same as above
+  For Diagonals
+    Same as above
+
+A function which will check all the rows, columns and diagonals 
