@@ -1,15 +1,27 @@
 determine if the player has won
 
 
-
+All functions:
+  input_conversion()
+  row_checker()
+  column_checker()
+  diagonal_checker()
+  win_determinator()
+  winner_print()
+  clear_board()
+  print_data_structure()
 
 
 
 
 
     TO DO:
-1. Data structure to store the data
-2. Win engine determining
+1.
+
+DONE:
+  1. Winning mechanism
+  2. String to int function
+  3. Clear board.
 
 
 Winning determination:
@@ -24,4 +36,30 @@ Will need 3 functions one each for rows, columns and diagonals.
   For Diagonals
     Same as above
 
-A function which will check all the rows, columns and diagonals 
+A function which will check all the rows, columns and diagonals
+for 'X':
+  the function will check the diagonals followed by rows followed by columns.
+  Will return 1 if X has won
+  Will return 2 if 0 has won
+  will return 3 incase of draw
+
+Game _tracker()
+  Will check if the game is completed or not
+  Will return a bool true if game is completed and false if not.
+  if Bool is true process stops.
+
+      For the game to be finished:
+        Either X has won
+        or 0 has won
+        it is a draw.
+
+
+turn tracker -> Will verify whose turn it is
+input function -> Will convert the string input into int
+board changing function -> will change the board as per the above integers
+
+  print_engine is useless.
+  We need 2 programs.
+  A first program which will update the data structure
+  And a second program which will print out the date structure.
+  
